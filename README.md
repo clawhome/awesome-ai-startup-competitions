@@ -5,7 +5,7 @@
 > 收录全球 AI 创业比赛：国内赛事中文呈现，国际赛事英文呈现；报名状态由脚本每日自动刷新。
 > AI startup competitions worldwide — Chinese events presented in Chinese, international events in English; statuses refresh daily.
 
-![competitions](https://img.shields.io/badge/competitions-8-blue) ![data](https://img.shields.io/badge/data-competitions.json-informational) ![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen) ![license](https://img.shields.io/badge/license-MIT-lightgrey)
+![competitions](https://img.shields.io/badge/competitions-22-blue) ![data](https://img.shields.io/badge/data-competitions.json-informational) ![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen) ![license](https://img.shields.io/badge/license-MIT-lightgrey)
 
 **目录**：[国内比赛](#国内比赛) · [International](#international)
 
@@ -15,19 +15,27 @@
 
 | 比赛 | 截止 | 奖金与权益 | 资格与阶段 | 赛道 · 形式 |
 |---|---|---|---|---|
+| **[「智汇青榕」2026 上海城市赛暨福州鼓楼区人工智能青年创新创业专项赛](https://www.gl.gov.cn/xjwz/ztzl/zsyzzt/zszx/202609/t20260915_5371707.htm)**<br>福州市鼓楼区（决赛落地上海杨浦区） | **09-25** 截止 · **即将截止** | 一等奖 5 万元；落地福州鼓楼综合奖补最高 150 万元（奖金+落地补助+100 万购房补贴），认定福建省 C 类高层次人才 | 40 周岁以内（1986-01-01 后出生），高校在读 / 省外来闽发展 / 2025 年后来闽人才之一 · 创意 / 原型 / 落地均可，晋级决赛 100% 获奖 | 人工智能青年创业 · 线上书面初评 → 10 月中旬上海杨浦线下决赛，免报名费 |
 | **全球人工智能技术创新大赛**<br>之江实验室 | **09-28** 截止 · **即将截止** | 奖金 + 落地合作机会 | 企业 / 高校 / 团队 · 有算法或原型 | 算法赛题、应用创新 · 线上提交 + 决赛答辩 |
+| **[「德邻杯」2026 AI 创业大赛](https://www.delincapital.com.cn)**<br>德邻资本 × 深圳市龙华区（深圳天使母基金支持）<br>决赛 10-15 | **09-30** 截止 · **即将截止** | 冠军 200 万元现金；15 支队伍最高 500 万元股权投资；10 周免费孵化（办公/住宿/算力/硬件实验室全包）+ Demo Day 对接 30+ 创投机构 | 全社会开放，不设注册地、专业和规模门槛 · 有想法、有技术即可，重实际场景落地 | AI 软硬件应用 · 报名初筛 → 决赛路演（10月15-16日 深圳）→ 深度孵化 |
+| **[日照市首届「人工智能+OPC」创新创业大赛](http://dsjfzj.rizhao.gov.cn/art/2026/9/1/art_81292_10303891.html)**<br>日照市人力资源和社会保障局 × 日照市大数据局 | **09-30** 截止 · **即将截止** | 分赛道奖项 + OPC 主题创业社区入驻等落地扶持 | AI 赋能型 OPC（一人公司）创业项目 / 个人 · 创意 / 经营初期均可，决赛侧重商业模式闭环 | AI+OPC 应用 · 线上初审 → 半决赛线上路演 → 11 月 20 日前决赛现场答辩 |
+| **[「澄迈杯」人工智能+创新创业大赛](http://www.ai-cxcyds.com)**<br>中国青年创业就业基金会 × 海南省澄迈县人民政府 | **10-08** 截止 | 近百万元现金奖励 + 总价值约 150 万元算力奖励；落地澄迈享税收优惠、人才补贴、办公空间 | 35 周岁及以下青年个人或团队 · 不限 | 人工智能+具身智能、数字治理、数字文娱、生态产业链命题 · 初赛 → 复赛 → 总决赛（11 月上旬澄迈，线下路演+现场答辩） |
+| **[2026 iCAN 大学生创新创业大赛·快手 AI 未来创造者挑战赛](http://g-ican.com/)**<br>iCAN 组委会 × 快手（可灵 AI 技术支持） | **10-15** 截止 | 官方证书 + 平台流量助推（月赛制，持续开放报名） | 全国全日制高校在校学生，单人或 2-5 人组队 · 创意 / 原型均可（作品经快手平台提交） | AI 场景创想、AI 产品实现、AI 无代码智能体 · 月赛制，线上报名 + 快手作品提交 |
+| **[第十五届中国创新创业大赛·工业智能体专业赛](https://www.cxcyds.com)**<br>中国创新创业大赛组委会 × 北京市丰台区 | **10-31** 截止 | 一等奖 10 万 / 二等奖 5 万 / 三等奖 3 万元；配套最高 200 万元应用场景支持 + 150 份算力券 | 企业 / 团队 / 高校组（在校学生与青年科研人员）/ OPC 组 · 有产品或原型 | 工业智能体 · 线上初评 → 11 月下旬丰台现场路演+答辩 |
 | **兴智杯全国人工智能创新创业大赛**<br>工信部相关机构等 | **10-31** 截止 | 奖金池 + 落地扶持 | 企业 / 团队 / 个人均可 · 有原型即可 | 大模型应用、行业智能化 · 线上初评 + 现场决赛 |
 
 ### 预告（报名尚未开始）
 
 | 比赛 | 截止 | 奖金与权益 | 资格与阶段 | 赛道 · 形式 |
 |---|---|---|---|---|
+| **[首届上海「人工智能+消费」创新大赛（2026）](http://cdn.shanghai.gov.cn/nw17239/20260902/730a57fced474e43b4e97221cb523ced.html)**<br>上海现代服务业联合会 × 上海西岸开发（集团） | 待公布 | 获奖项目直通 2026 WTCC 专属展区（10 万+ 消费者）+ 模速空间孵化（办公/算力/产品测试/零售策略） | 面向全球企业、高校院所、创业团队、个人开发者（青少年设特别赛道） · 应用组（已落地）/ 创客组（创意、原型、早期验证）双组别 | AI 消费·新产品、AI 消费·新场景、AI 消费·新模式、青少年创客 · 「赛—展—销—孵」全链路，8 月底已启动全球招募，截止日待官网公布 |
 | **之江杯全球人工智能大赛**<br>浙江省 | 预计 11-15 开报 | 奖金池 + 场景落地支持 | 全球团队与企业 · 不限 | 通用人工智能、行业应用 · 线上报名 + 现场总决赛 |
 
 ### 已结束归档（供研究历届）
 
 | 比赛 | 截止 | 奖金与权益 | 资格与阶段 | 赛道 · 形式 |
 |---|---|---|---|---|
+| **2026 中国「人工智能+」创新创业挑战赛**<br>中国人工智能学会 × 常州数据集团等<br>决赛 08-11 | **05-31** 截止 | 资金、订单、场景、算力等综合支持（337 个项目参赛） | 全球项目，设天使组与成长组 · 天使组（早期）/ 成长组 | AI+智能制造、AI+医疗健康、AI+新能源 · 北京初赛 → 复赛 → 常州决赛（8 月 11 日已落幕） |
 | **HICOOL 2026 全球创业者大赛**<br>北京 HICOOL 峰会<br>决赛 08-26 | **05-31** 截止 | 亿元级奖金池 + 落地政策包 | 全球创业者，企业成立年限有限制 · 有产品或收入更佳 | 人工智能、新一代信息技术 · 线上报名 + 层层晋级路演 |
 
 ## International
@@ -36,25 +44,31 @@
 
 | Competition | Deadline | Prize & benefits | Eligibility & stage | Tracks · Format |
 |---|---|---|---|---|
-| **SXSW Pitch 2027**<br>SXSW | **Oct 23** | Prize package + investor exposure | Early-stage startups · Prototype / early traction | AI & Machine Learning, Enterprise · Live pitch in Austin |
+| **[Future of AI 2026 Startup Competition](https://events.lynx.co/future-of-ai-competition)**<br>Lynx Events (Israel)<br>Finals Oct 21 | **Sep 20** · **closing soon** | Live pitch in front of curated investors & corporates; visibility with TLV-focused VC panel | Israeli-founded AI startups or with significant R&D in Israel, pre-seed to Series B · Working product / prototype / pilot required, AI at the core | Applied AI · Online application → finalists announced Oct 14 → live pitch day Oct 21 |
+| **[SXSW Pitch 2027](https://www.sxsw.com/awards/pitch/)**<br>SXSW | **Oct 23** | Prize package + investor exposure | Early-stage startups · Prototype / early traction | AI & Machine Learning, Enterprise · Live pitch in Austin |
+| **[Supernova Challenge 0X @ Expand North Star 2026](https://expandnorthstar.com)**<br>Dubai World Trade Centre × Dubai Chamber of Digital Economy (GITEX)<br>Finals Dec 10 | **Nov 2** | $200K total prize pool; stage-based support incl. cloud credits, UAE market access, GITEX booths | Global startups, grouped by stage (Pre-Seed / Seed / Series A) · Pre-seed to Series A | AI, Fintech, Climate & Energy, Health, Enterprise · Online application → semi-finals Dec 8-9 Dubai → awards Dec 10 |
 
 ### Rolling / no fixed deadline
 
 | Competition | Deadline | Prize & benefits | Eligibility & stage | Tracks · Format |
 |---|---|---|---|---|
-| **NVIDIA Inception Program**<br>NVIDIA | Anytime | Cloud credits + go-to-market support | AI startups · Any stage | Online application |
+| **[AI for Good Innovation Factory](https://aiforgood.itu.int/about-us/innovation-factory/)**<br>ITU (United Nations) | Anytime | $20,000 cash at Grand Finale + UN Summit exposure + accelerator programme + investor connections | AI startups addressing global challenges (SDGs), all regions · Any stage | AI for Good, Climate, Health, Robotics · Monthly online pitching sessions (Sep 2026 - May 2027) → Grand Finale at AI for Good Global Summit (Jun 2027) |
+| **[Startup World Cup](https://www.startupworldcup.io/)**<br>Pegasus Tech Ventures (Silicon Valley) | Anytime | $1,000,000 investment prize at Grand Finale (San Francisco) | Global tech startups (AI, FinTech, SaaS, DeepTech etc.) via 100+ regional events worldwide · Pre-seed to Series A, at least one founder pitching in English | AI, FinTech, SaaS, DeepTech · Regional pitch competitions year-round → Grand Finale in San Francisco |
+| **[NVIDIA Inception Program](https://www.nvidia.com/en-us/startups/)**<br>NVIDIA | Anytime | Cloud credits + go-to-market support | AI startups · Any stage | Online application |
 
 ### Upcoming (applications not yet open)
 
 | Competition | Deadline | Prize & benefits | Eligibility & stage | Tracks · Format |
 |---|---|---|---|---|
-| **Web Summit PITCH 2027**<br>Web Summit | Expected Jan 10, 2027 | PITCH winner package + media exposure | Startups with funding < $5M · Early stage | AI & Data · Live pitch at Web Summit |
+| **[AI 4 Future Startup Competition (AI Festival Milan)](https://en.aifestival.it/call/startup/)**<br>WMF - We Make Future / AI Festival | TBA | Live finals at AI Festival Milan (Feb 11-12, 2027) + WMF 2027 Bologna + incubator residency at Tecnopolo di Bologna + Saudi Makes Future trip | Italian and international startups with AI as core business · Any stage, impact-oriented projects favored | AI applications across sectors · Two-phase application → 6 finalists live pitch (3 min + Q&A), jury & audience awards |
+| **[RAISE Summit AI Startup Competition](https://www.raisesummit.com/startup-competition)**<br>Chain Of Events (Paris, Le Carrousel du Louvre) | Expected Jan 8, 2027 | Main-stage pitch before jury of Sequoia / NVIDIA / 20VC; global launchpad exposure | Global early-stage AI startups, total funding ≤ €10M, min 2-person team, AI at the core · Pre-seed / Seed / Series A with live product or strong MVP | AI infrastructure, Applied AI · Applications Jan-Jun → Top 100 → 10 finalists → live pitch at RAISE Summit Paris (Jul 2027) |
+| **[Web Summit PITCH 2027](https://websummit.com)**<br>Web Summit | Expected Jan 10, 2027 | PITCH winner package + media exposure | Startups with funding < $5M · Early stage | AI & Data · Live pitch at Web Summit |
 
 ### Archive (past editions, for research)
 
 | Competition | Deadline | Prize & benefits | Eligibility & stage | Tracks · Format |
 |---|---|---|---|---|
-| **Startup Battlefield 200 @ TechCrunch Disrupt 2026**<br>TechCrunch<br>Finals Oct 27 | **Jul 31** · closed | $100K equity-free + Demo Table | Early-stage startups · Launch-ready product | AI / ML, Fintech, Hardware · Application + live pitch at Disrupt |
+| **[Startup Battlefield 200 @ TechCrunch Disrupt 2026](https://techcrunch.com/startup-battlefield/)**<br>TechCrunch<br>Finals Oct 27 | **Jul 31** · closed | $100K equity-free + Demo Table | Early-stage startups · Launch-ready product | AI / ML, Fintech, Hardware · Application + live pitch at Disrupt |
 
 ## 数据说明
 
