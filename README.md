@@ -16,7 +16,7 @@
 | 比赛 | 截止 | 奖金与权益 | 资格与阶段 | 赛道 · 形式 |
 |---|---|---|---|---|
 | **[「智汇青榕」2026 上海城市赛暨福州鼓楼区人工智能青年创新创业专项赛](https://www.gl.gov.cn/xjwz/ztzl/zsyzzt/zszx/202609/t20260915_5371707.htm)**<br>福州市鼓楼区（决赛落地上海杨浦区） | **09-25** 截止 · **即将截止** | 一等奖 5 万元；落地福州鼓楼综合奖补最高 150 万元（奖金+落地补助+100 万购房补贴），认定福建省 C 类高层次人才 | 40 周岁以内（1986-01-01 后出生），高校在读 / 省外来闽发展 / 2025 年后来闽人才之一 · 创意 / 原型 / 落地均可，晋级决赛 100% 获奖 | 人工智能青年创业 · 线上书面初评 → 10 月中旬上海杨浦线下决赛，免报名费 |
-| **[「德邻杯」2026 AI 创业大赛](https://www.delincapital.com.cn)**<br>德邻资本 × 深圳市龙华区（深圳天使母基金支持）<br>决赛 10-15 | **09-30** 截止 · **即将截止** | 冠军 200 万元现金；15 支队伍最高 500 万元股权投资；10 周免费孵化（办公/住宿/算力/硬件实验室全包）+ Demo Day 对接 30+ 创投机构 | 全社会开放，不设注册地、专业和规模门槛 · 有想法、有技术即可，重实际场景落地 | AI 软硬件应用 · 报名初筛 → 决赛路演（10月15-16日 深圳）→ 深度孵化 |
+| **[「德邻杯」2026 AI 创业大赛](https://delincapital.com.cn)**<br>德邻资本 × 深圳市龙华区（深圳天使母基金支持）<br>决赛 10-15 | **09-30** 截止 · **即将截止** | 冠军 200 万元现金；15 支队伍最高 500 万元股权投资；10 周免费孵化（办公/住宿/算力/硬件实验室全包）+ Demo Day 对接 30+ 创投机构 | 全社会开放，不设注册地、专业和规模门槛 · 有想法、有技术即可，重实际场景落地 | AI 软硬件应用 · 报名初筛 → 决赛路演（10月15-16日 深圳）→ 深度孵化 |
 | **[日照市首届「人工智能+OPC」创新创业大赛](http://dsjfzj.rizhao.gov.cn/art/2026/9/1/art_81292_10303891.html)**<br>日照市人力资源和社会保障局 × 日照市大数据局 | **09-30** 截止 · **即将截止** | 分赛道奖项 + OPC 主题创业社区入驻等落地扶持 | AI 赋能型 OPC（一人公司）创业项目 / 个人 · 创意 / 经营初期均可，决赛侧重商业模式闭环 | AI+OPC 应用 · 线上初审 → 半决赛线上路演 → 11 月 20 日前决赛现场答辩 |
 | **[「澄迈杯」人工智能+创新创业大赛](http://www.ai-cxcyds.com)**<br>中国青年创业就业基金会 × 海南省澄迈县人民政府 | **10-08** 截止 | 近百万元现金奖励 + 总价值约 150 万元算力奖励；落地澄迈享税收优惠、人才补贴、办公空间 | 35 周岁及以下青年个人或团队 · 不限 | 人工智能+具身智能、数字治理、数字文娱、生态产业链命题 · 初赛 → 复赛 → 总决赛（11 月上旬澄迈，线下路演+现场答辩） |
 | **[2026 iCAN 大学生创新创业大赛·快手 AI 未来创造者挑战赛](http://g-ican.com/)**<br>iCAN 组委会 × 快手（可灵 AI 技术支持） | **10-15** 截止 | 官方证书 + 平台流量助推（月赛制，持续开放报名） | 全国全日制高校在校学生，单人或 2-5 人组队 · 创意 / 原型均可（作品经快手平台提交） | AI 场景创想、AI 产品实现、AI 无代码智能体 · 月赛制，线上报名 + 快手作品提交 |
@@ -28,7 +28,7 @@
 | 比赛 | 截止 | 奖金与权益 | 资格与阶段 | 赛道 · 形式 |
 |---|---|---|---|---|
 | **[首届上海「人工智能+消费」创新大赛（2026）](http://cdn.shanghai.gov.cn/nw17239/20260902/730a57fced474e43b4e97221cb523ced.html)**<br>上海现代服务业联合会 × 上海西岸开发（集团） | 待公布 | 获奖项目直通 2026 WTCC 专属展区（10 万+ 消费者）+ 模速空间孵化（办公/算力/产品测试/零售策略） | 面向全球企业、高校院所、创业团队、个人开发者（青少年设特别赛道） · 应用组（已落地）/ 创客组（创意、原型、早期验证）双组别 | AI 消费·新产品、AI 消费·新场景、AI 消费·新模式、青少年创客 · 「赛—展—销—孵」全链路，8 月底已启动全球招募，截止日待官网公布 |
-| **之江杯全球人工智能大赛**<br>浙江省 | 预计 11-15 开报 | 奖金池 + 场景落地支持 | 全球团队与企业 · 不限 | 通用人工智能、行业应用 · 线上报名 + 现场总决赛 |
+| **[之江杯全球人工智能大赛](https://zhejianglab.aliyun.com/gameList/activeList)**<br>浙江省 | 预计 11-15 开报 | 奖金池 + 场景落地支持 | 全球团队与企业 · 不限 | 通用人工智能、行业应用 · 线上报名 + 现场总决赛 |
 
 ### 已结束归档（供研究历届）
 
@@ -36,7 +36,7 @@
 |---|---|---|---|---|
 | **[「AI杭州·码动未来」AI 模型智能体创新大赛](https://aichallenge.msup.com.cn/)**<br>麦思博 msup × 杭州市余杭区（未科阿里中心）<br>决赛 10-31 | **09-19** 截止 | 奖金池 21 万+；百强赋能礼包（落地社区两年租金八折 + 工位/token 券、就业直通车、创业陪跑、全国技术大会参会资格） | 全球 AI 青年人才 / 团队（本届 200+ 支队伍参赛） · 基于大模型构建智能体应用 | AI+具身智能、AI+超级智能体、AI+时空智能（低空经济） · 线上提交初赛作品 → 百强复赛 → 10 月 31 日决赛现场路演（院士/大厂 CTO/头部 VC 评委） |
 | **[GOAI 世界人工智能开源大赛](https://goaihz.com)**<br>杭州市开源人工智能基金会（之江实验室、阿里云、蚂蚁集团等承办）<br>决赛 09-22 | **08-15** 截止 | 500 万元现金奖池：全场大奖 100 万、四大赛道冠军最高 50 万；Token/算力补助，落地杭州最高千万元级启动资金支持 | 全球个人开发者、开源团队、高校科研团队、企业 AI 团队、创业团队 · 具备开源价值、可运行 Demo 与真实应用潜力的 AI 项目 | 新智基座 Agent Infra、无界应用 Boundless Agents、前沿探索 AI for Research、具身未来 Embodied Future · 初赛提交已于 8 月中旬截止（2999 份作品），70 强参加 9 月 22-23 日杭州总决赛 GOAI DAY |
-| **2026 中国「人工智能+」创新创业挑战赛**<br>中国人工智能学会 × 常州数据集团等<br>决赛 08-11 | **05-31** 截止 | 资金、订单、场景、算力等综合支持（337 个项目参赛） | 全球项目，设天使组与成长组 · 天使组（早期）/ 成长组 | AI+智能制造、AI+医疗健康、AI+新能源 · 北京初赛 → 复赛 → 常州决赛（8 月 11 日已落幕） |
+| **[2026 中国「人工智能+」创新创业挑战赛](https://caiiec.caai.cn/index.html)**<br>中国人工智能学会 × 常州数据集团等<br>决赛 08-11 | **05-31** 截止 | 各赛道一等奖 5 万 / 二等奖 3 万 / 三等奖 1 万元；叠加最高 1000 万元天使投资、最高 1000 万元应用场景订单、算力服务包等综合支持（337 个项目参赛） | 全球项目，设天使组与成长组 · 天使组（早期）/ 成长组 | AI+智能制造、AI+医疗健康、AI+新能源 · 北京初赛 → 复赛 → 常州决赛（8 月 11 日已落幕） |
 | **[HICOOL 2026 全球创业大赛](https://www.hicool.com/)**<br>HICOOL 全球创业者峰会（北京） | **04-15** 截止 | 总奖金 1 亿元、200 个获奖席位：一等奖 200 万/项 ×12、二等奖 100 万/项 ×36、三等奖 50 万/项 ×68、优胜奖 20 万/项 ×84；获奖享在京落户等政策支持 | 全球创业项目，分海外组与本土组 · 有创新性和成长潜力的创业项目 | 人工智能/机器人、集成电路/量子信息、医药健康、新能源智能汽车 等 12 大核心赛道 · 初评 → 赛区赛（5-6 月）→ 复赛（7 月）→ 决赛及峰会（8 月下旬） |
 
 ## International
@@ -46,8 +46,8 @@
 | Competition | Deadline | Prize & benefits | Eligibility & stage | Tracks · Format |
 |---|---|---|---|---|
 | **[Future of AI 2026 Startup Competition](https://events.lynx.co/future-of-ai-competition)**<br>Lynx Events (Israel)<br>Finals Oct 21 | **Sep 20** · **closing soon** | Live pitch in front of curated investors & corporates; visibility with TLV-focused VC panel | Israeli-founded AI startups or with significant R&D in Israel, pre-seed to Series B · Working product / prototype / pilot required, AI at the core | Applied AI · Online application → finalists announced Oct 14 → live pitch day Oct 21 |
-| **[SXSW Pitch 2027](https://www.sxsw.com/awards/pitch/)**<br>SXSW | **Oct 23** | Prize package + investor exposure | Early-stage startups · Prototype / early traction | AI & Machine Learning, Enterprise · Live pitch in Austin |
 | **[Supernova Challenge 0X @ Expand North Star 2026](https://expandnorthstar.com)**<br>Dubai World Trade Centre × Dubai Chamber of Digital Economy (GITEX)<br>Finals Dec 10 | **Nov 2** | $200K total prize pool; stage-based support incl. cloud credits, UAE market access, GITEX booths | Global startups, grouped by stage (Pre-Seed / Seed / Series A) · Pre-seed to Series A | AI, Fintech, Climate & Energy, Health, Enterprise · Online application → semi-finals Dec 8-9 Dubai → awards Dec 10 |
+| **[SXSW Pitch 2027](https://www.sxsw.com/awards/pitch/)**<br>SXSW<br>Finals Mar 16, 2027 | **Nov 13** | Prize package + investor & media exposure | Early-stage startups · Prototype / early traction | AI & Machine Learning, Enterprise · Regular entry Sep 14 - Nov 13, 2026 → live pitch in Austin (Mar 16-17, 2027) |
 
 ### Rolling / no fixed deadline
 
