@@ -1,0 +1,8 @@
+# 工作区记忆 / 本地协作数据，不对外公开
+.workbuddy/
+
+# macOS
+.DS_Store
+
+# 依赖目录（当前脚本零依赖，预留）
+node_modules/

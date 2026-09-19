@@ -1,0 +1,202 @@
+#!/usr/bin/env node
+/**
+ * build-readme.mjs — 由 data/competitions.json 生成 README.md 与 data/competitions.csv
+ * README.md 是自动生成文件，禁止手改；数据增改请编辑 data/competitions.json。
+ * 零依赖，Node 22+。
+ *
+ * 状态计算规则（Asia/Shanghai 时区）：
+ *   rolling=true            -> rolling   常年开放
+ *   status_override=announced -> announced 预告
+ *   有 deadline 且 >= 今天   -> open      报名中
+ *   有 deadline 且 < 今天    -> closed    已结束
+ *   无 deadline 且非常年且无 override -> announced（并在控制台告警）
+ */
+import { readFileSync, writeFileSync } from "node:fs";
+import { fileURLToPath } from "node:url";
+import path from "node:path";
+
+const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
+const JSON_PATH = path.join(ROOT, "data", "competitions.json");
+const README_PATH = path.join(ROOT, "README.md");
+const CSV_PATH = path.join(ROOT, "data", "competitions.csv");
+const SOON_DAYS = 14;
+
+const today = new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Shanghai" }).format(new Date());
+const daysUntil = (iso) =>
+  Math.round((Date.parse(`${iso}T00:00:00Z`) - Date.parse(`${today}T00:00:00Z`)) / 86400000);
+
+const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+const fmtCn = (iso) => {
+  const [y, m, d] = iso.split("-");
+  return y === today.slice(0, 4) ? `${m}-${d}` : `${y}-${m}-${d}`;
+};
+const fmtEn = (iso) => {
+  const [y, m, d] = iso.split("-").map(Number);
+  const s = `${MONTHS[m - 1]} ${d}`;
+  return y === Number(today.slice(0, 4)) ? s : `${s}, ${y}`;
+};
+
+function statusOf(c) {
+  if (c.rolling) return "rolling";
+  if (c.status_override === "announced") return "announced";
+  if (!c.deadline) return "announced";
+  return c.deadline >= today ? "open" : "closed";
+}
+
+const esc = (s) => String(s ?? "").replace(/\|/g, "\\|").replace(/\r?\n/g, " ");
+const dash = (s) => (String(s ?? "").trim() ? esc(s) : "—");
+
+const SECTIONS = [
+  {
+    key: "open",
+    cn: "正在报名（按截止日从近到远）",
+    en: "Open for applications (sorted by deadline)",
+    order: (a, b) => (a.deadline || "").localeCompare(b.deadline || ""),
+  },
+  { key: "rolling", cn: "常年开放（不设截止）", en: "Rolling / no fixed deadline" },
+  {
+    key: "announced",
+    cn: "预告（报名尚未开始）",
+    en: "Upcoming (applications not yet open)",
+    order: (a, b) => (a.opens_at || "").localeCompare(b.opens_at || ""),
+  },
+  {
+    key: "closed",
+    cn: "已结束归档（供研究历届）",
+    en: "Archive (past editions, for research)",
+    order: (a, b) => (b.deadline || "").localeCompare(a.deadline || ""),
+  },
+];
+
+function compCell(c, lang) {
+  const title = c.url ? `**[${esc(c.name)}](${c.url})**` : `**${esc(c.name)}**`;
+  const sub = [
+    esc(c.organizer),
+    lang === "en" && c.name_zh ? esc(c.name_zh) : null,
+    c.event_date ? (lang === "cn" ? `决赛 ${fmtCn(c.event_date)}` : `Finals ${fmtEn(c.event_date)}`) : null,
+  ].filter(Boolean);
+  return [title, ...sub].join("<br>");
+}
+
+function deadlineCell(c, lang) {
+  if (c.rolling) return lang === "cn" ? "随时可报" : "Anytime";
+  if (statusOf(c) === "announced") {
+    if (!c.opens_at) return lang === "cn" ? "待公布" : "TBA";
+    return lang === "cn" ? `预计 ${fmtCn(c.opens_at)} 开报` : `Expected ${fmtEn(c.opens_at)}`;
+  }
+  if (!c.deadline) return lang === "cn" ? "待公布" : "TBA";
+  if (lang === "cn") {
+    const parts = [`**${fmtCn(c.deadline)}** 截止`];
+    if (statusOf(c) === "open" && daysUntil(c.deadline) <= SOON_DAYS) parts.push("**即将截止**");
+    return parts.join(" · ");
+  }
+  const parts = [`**${fmtEn(c.deadline)}**`];
+  if (statusOf(c) === "open" && daysUntil(c.deadline) <= SOON_DAYS) parts.push("**closing soon**");
+  if (statusOf(c) === "closed") parts.push("closed");
+  return parts.join(" · ");
+}
+
+function stageCell(c) {
+  return dash([c.eligibility, c.stage].filter(Boolean).join(" · "));
+}
+
+function trackCell(c, lang) {
+  const joiner = lang === "cn" ? "、" : ", ";
+  const tracks = (c.tracks || []).join(joiner);
+  return dash([tracks, c.format].filter(Boolean).join(" · "));
+}
+
+function renderBoard(lang, comps) {
+  const lines = [];
+  lines.push(lang === "cn" ? "## 国内比赛" : "## International");
+  for (const sec of SECTIONS) {
+    const items = comps.filter((c) => statusOf(c) === sec.key).sort(sec.order);
+    if (!items.length) continue;
+    lines.push("", `### ${lang === "cn" ? sec.cn : sec.en}`, "");
+    lines.push(
+      lang === "cn"
+        ? "| 比赛 | 截止 | 奖金与权益 | 资格与阶段 | 赛道 · 形式 |"
+        : "| Competition | Deadline | Prize & benefits | Eligibility & stage | Tracks · Format |",
+      "|---|---|---|---|---|"
+    );
+    for (const c of items) {
+      lines.push(
+        `| ${compCell(c, lang)} | ${deadlineCell(c, lang)} | ${dash(c.prize)} | ${stageCell(c)} | ${trackCell(c, lang)} |`
+      );
+    }
+  }
+  return lines.join("\n");
+}
+
+function buildReadme(data) {
+  const n = data.competitions.length;
+  const cn = data.competitions.filter((c) => c.region === "cn");
+  const intl = data.competitions.filter((c) => c.region === "intl");
+  return [
+    "<!-- AUTO-GENERATED by scripts/build-readme.mjs — 禁止手改；请编辑 data/competitions.json 后运行脚本重新生成 -->",
+    "",
+    "# AI 创业比赛 · AI Startup Competitions",
+    "",
+    "> 收录全球 AI 创业比赛：国内赛事中文呈现，国际赛事英文呈现；报名状态由脚本每日自动刷新。",
+    "> AI startup competitions worldwide — Chinese events presented in Chinese, international events in English; statuses refresh daily.",
+    "",
+    `![competitions](https://img.shields.io/badge/competitions-${n}-blue) ![data](https://img.shields.io/badge/data-competitions.json-informational) ![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen) ![license](https://img.shields.io/badge/license-MIT-lightgrey)`,
+    "",
+    "**目录**：[国内比赛](#国内比赛) · [International](#international)",
+    "",
+    renderBoard("cn", cn),
+    "",
+    renderBoard("en", intl),
+    "",
+    "## 数据说明",
+    "",
+    "- `status`（正在报名 / 常年开放 / 预告 / 已结束）由脚本按报名截止日与当天日期自动计算，人工不填写；",
+    "- 每条数据的 `last_verified` 记录最后人工核实日期，补充与修正数据时请务必更新为当天；",
+    "- 字段定义与提交规则见 [CONTRIBUTING.md](CONTRIBUTING.md)，表格版数据见 [data/competitions.csv](data/competitions.csv)。",
+    "",
+    "## Contributing / License",
+    "",
+    "- Contributing: see [CONTRIBUTING.md](CONTRIBUTING.md)",
+    "- License: MIT",
+    "",
+  ].join("\n");
+}
+
+const CSV_COLS = [
+  "name", "name_zh", "organizer", "region", "eligibility", "stage", "deadline",
+  "event_date", "prize", "tracks", "format", "status", "url", "last_verified",
+];
+
+function csvEscape(v) {
+  const s = String(v ?? "");
+  return /[",\n]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s;
+}
+
+function buildCsv(comps) {
+  const lines = [CSV_COLS.join(",")];
+  for (const c of comps) {
+    const rec = { ...c, tracks: (c.tracks || []).join(" | "), status: statusOf(c) };
+    lines.push(CSV_COLS.map((k) => csvEscape(rec[k])).join(","));
+  }
+  return "\uFEFF" + lines.join("\n") + "\n";
+}
+
+const data = JSON.parse(readFileSync(JSON_PATH, "utf8"));
+const warnings = [];
+for (const c of data.competitions) {
+  if (!c.url) warnings.push(`缺官网 url：${c.name}`);
+  if (!c.rolling && !c.deadline && c.status_override !== "announced")
+    warnings.push(`无 deadline 且非常年（按预告处理）：${c.name}`);
+  if (!c.last_verified) warnings.push(`缺 last_verified：${c.name}`);
+}
+
+writeFileSync(README_PATH, buildReadme(data), "utf8");
+writeFileSync(CSV_PATH, buildCsv(data.competitions), "utf8");
+
+const count = (k) => data.competitions.filter((c) => statusOf(c) === k).length;
+console.log(`已生成 README.md 与 data/competitions.csv（数据日期 ${today}）`);
+console.log(`正在报名 ${count("open")} · 常年开放 ${count("rolling")} · 预告 ${count("announced")} · 已结束 ${count("closed")}`);
+if (warnings.length) {
+  console.log("待补全：");
+  for (const w of warnings) console.log(`  - ${w}`);
+}
