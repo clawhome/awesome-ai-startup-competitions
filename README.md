@@ -5,7 +5,7 @@
 > 收录全球 AI 创业比赛：国内赛事中文呈现，国际赛事英文呈现；报名状态由脚本每日自动刷新。
 > AI startup competitions worldwide — Chinese events presented in Chinese, international events in English; statuses refresh daily.
 
-![competitions](https://img.shields.io/badge/competitions-22-blue) ![data](https://img.shields.io/badge/data-competitions.json-informational) ![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen) ![license](https://img.shields.io/badge/license-MIT-lightgrey)
+![competitions](https://img.shields.io/badge/competitions-23-blue) ![data](https://img.shields.io/badge/data-competitions.json-informational) ![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen) ![license](https://img.shields.io/badge/license-MIT-lightgrey)
 
 **目录**：[国内比赛](#国内比赛) · [International](#international)
 
@@ -35,6 +35,7 @@
 
 | 比赛 | 截止 | 奖金与权益 | 资格与阶段 | 赛道 · 形式 |
 |---|---|---|---|---|
+| **[「AI杭州·码动未来」AI 模型智能体创新大赛](https://aichallenge.msup.com.cn/)**<br>麦思博 msup × 杭州市余杭区（未科阿里中心）<br>决赛 10-31 | **09-19** 截止 | 奖金池 21 万+；百强赋能礼包（落地社区两年租金八折 + 工位/token 券、就业直通车、创业陪跑、全国技术大会参会资格） | 全球 AI 青年人才 / 团队（本届 200+ 支队伍参赛） · 基于大模型构建智能体应用 | AI+具身智能、AI+超级智能体、AI+时空智能（低空经济） · 线上提交初赛作品 → 百强复赛 → 10 月 31 日决赛现场路演（院士/大厂 CTO/头部 VC 评委） |
 | **2026 中国「人工智能+」创新创业挑战赛**<br>中国人工智能学会 × 常州数据集团等<br>决赛 08-11 | **05-31** 截止 | 资金、订单、场景、算力等综合支持（337 个项目参赛） | 全球项目，设天使组与成长组 · 天使组（早期）/ 成长组 | AI+智能制造、AI+医疗健康、AI+新能源 · 北京初赛 → 复赛 → 常州决赛（8 月 11 日已落幕） |
 | **HICOOL 2026 全球创业者大赛**<br>北京 HICOOL 峰会<br>决赛 08-26 | **05-31** 截止 | 亿元级奖金池 + 落地政策包 | 全球创业者，企业成立年限有限制 · 有产品或收入更佳 | 人工智能、新一代信息技术 · 线上报名 + 层层晋级路演 |
 

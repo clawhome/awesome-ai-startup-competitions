@@ -343,6 +343,21 @@
       "format": "Live pitch at Web Summit",
       "url": "https://websummit.com",
       "last_verified": "2026-09-20"
+    },
+    {
+      "slug": "ai-hangzhou-agent-2026",
+      "name": "「AI杭州·码动未来」AI 模型智能体创新大赛",
+      "region": "cn",
+      "organizer": "麦思博 msup × 杭州市余杭区（未科阿里中心）",
+      "eligibility": "全球 AI 青年人才 / 团队（本届 200+ 支队伍参赛）",
+      "stage": "基于大模型构建智能体应用",
+      "deadline": "2026-09-19",
+      "event_date": "2026-10-31",
+      "prize": "奖金池 21 万+；百强赋能礼包（落地社区两年租金八折 + 工位/token 券、就业直通车、创业陪跑、全国技术大会参会资格）",
+      "tracks": ["AI+具身智能", "AI+超级智能体", "AI+时空智能（低空经济）"],
+      "format": "线上提交初赛作品 → 百强复赛 → 10 月 31 日决赛现场路演（院士/大厂 CTO/头部 VC 评委）",
+      "url": "https://aichallenge.msup.com.cn/",
+      "last_verified": "2026-09-20"
     }
   ]
 }
