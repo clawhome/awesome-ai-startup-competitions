@@ -45,7 +45,6 @@
 
 | Competition | Deadline | Prize & benefits | Eligibility & stage | Tracks · Format |
 |---|---|---|---|---|
-| **[Future of AI 2026 Startup Competition](https://events.lynx.co/future-of-ai-competition)**<br>Lynx Events (Israel)<br>Finals Oct 21 | **Sep 20** · **closing soon** | Live pitch in front of curated investors & corporates; visibility with TLV-focused VC panel | Israeli-founded AI startups or with significant R&D in Israel, pre-seed to Series B · Working product / prototype / pilot required, AI at the core | Applied AI · Online application → finalists announced Oct 14 → live pitch day Oct 21 |
 | **[Supernova Challenge 0X @ Expand North Star 2026](https://expandnorthstar.com)**<br>Dubai World Trade Centre × Dubai Chamber of Digital Economy (GITEX)<br>Finals Dec 10 | **Nov 2** | $200K total prize pool; stage-based support incl. cloud credits, UAE market access, GITEX booths | Global startups, grouped by stage (Pre-Seed / Seed / Series A) · Pre-seed to Series A | AI, Fintech, Climate & Energy, Health, Enterprise · Online application → semi-finals Dec 8-9 Dubai → awards Dec 10 |
 | **[SXSW Pitch 2027](https://www.sxsw.com/awards/pitch/)**<br>SXSW<br>Finals Mar 16, 2027 | **Nov 13** | Prize package + investor & media exposure | Early-stage startups · Prototype / early traction | AI & Machine Learning, Enterprise · Regular entry Sep 14 - Nov 13, 2026 → live pitch in Austin (Mar 16-17, 2027) |
 
@@ -69,6 +68,7 @@
 
 | Competition | Deadline | Prize & benefits | Eligibility & stage | Tracks · Format |
 |---|---|---|---|---|
+| **[Future of AI 2026 Startup Competition](https://events.lynx.co/future-of-ai-competition)**<br>Lynx Events (Israel)<br>Finals Oct 21 | **Sep 20** · closed | Live pitch in front of curated investors & corporates; visibility with TLV-focused VC panel | Israeli-founded AI startups or with significant R&D in Israel, pre-seed to Series B · Working product / prototype / pilot required, AI at the core | Applied AI · Online application → finalists announced Oct 14 → live pitch day Oct 21 |
 | **[Startup Battlefield 200 @ TechCrunch Disrupt 2026](https://techcrunch.com/startup-battlefield/)**<br>TechCrunch<br>Finals Oct 27 | **Jul 31** · closed | $100K equity-free + Demo Table | Early-stage startups · Launch-ready product | AI / ML, Fintech, Hardware · Application + live pitch at Disrupt |
 
 ## 数据说明
