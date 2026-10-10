@@ -398,6 +398,66 @@
       "format": "9 月赛事发布与项目征集 → 10 月中旬市级资格审核 + 专家评审，确定约 10 个项目 → 10 月下旬专场赛现场路演 + 评委问答",
       "url": "https://cyds.wzai.org.cn/",
       "last_verified": "2026-10-10"
+    },
+    {
+      "slug": "zhuhai-ai-opc-2026",
+      "name": "2026 首届珠海人工智能 OPC 创业大赛",
+      "region": "cn",
+      "organizer": "珠海市人力资源和社会保障局主办，珠海市人才资源与就业服务中心、珠海产业促进发展集团有限公司、珠海科技产业集团·科创产业园联合承办",
+      "eligibility": "不限户籍地域，有意在珠海创业或已创业者均可；截至报名时未注册、或截至 2026-09-30（含）注册未满5 年的自然人独资/控股公司；参赛人员年满 16 周岁、为创始人或核心成员，每项目不超 3 人，OPC 企业社保不超 5 人（以 2026 年 8 月参保数据为准）；高校组（在校或毕业两年内）/ 社会组（毕业超两年、从业者、创业者）不得兼报",
+      "stage": "OPC（一人公司）模式开展 AI 项目，需有自主创新产品、核心技术或差异化商业模式",
+      "deadline": "2026-11-10",
+      "event_date": "2026-12-20",
+      "prize": "高校组、社会组各设一等 1 名、二等 2 名、三等 3 名、优秀奖 6 名；已注册企业一等 6 万 / 二等 4 万 / 三等 2 万，未注册项目分段资助（一等 3 万 + 落地注册后 3 万）；配套两年免租孵化、算力券最高 200 万、模型券最高 100 万、担保贷款个人 60 万 / 小微 500 万、人才房「一免两减」、投融资对接与港澳专项",
+      "tracks": ["AI 硬件创新及设计（芯片/智能终端/具身智能/边缘计算）", "AI 软件与智能体创新（垂直行业 AI、轻量工具、Agent、多智能体协同）", "AIGC 创新及 AI 衍生应用（图文音视频/3D 生成、AI 安全、文旅数字孪生）"],
+      "format": "即日起至 11-10 报名（材料提交至 zhuhaiopccyds@163.com）→ 11 月下旬资格审核 → 12 月上旬初赛书面评审（各组25 个晋级）→ 12 月下旬复赛路演答辩（各组 12 个晋级）→ 决赛暨颁奖",
+      "url": "https://zhrsj.zhuhai.gov.cn/gkmlpt/content/3/3944/post_3944618.html",
+      "last_verified": "2026-10-10"
+    },
+    {
+      "slug": "gx-asean-ai-law-2026",
+      "name": "2026 年中国（广西）—东盟「AI+法律」应用创新大赛",
+      "region": "cn",
+      "organizer": "广西壮族自治区司法厅 × 梧州市人民政府（广西 2026 年「AI 赋能千行百业」超级联赛 A 超组成部分）",
+      "eligibility": "面向中国内地、港澳台及东盟各国企业、高校学生、科研院所、初创团队、个人开发者；团队 2-5 人且须明确一名负责人，鼓励跨国界跨领域联合组队；同一人只能参加一个团队",
+      "stage": "已落地产品、行业解决方案、原型系统、算法模型、数据平台或创新研究成果均可；须为原创或取得完整合法授权",
+      "deadline": "2026-10-15",
+      "event_date": "2026-11-20",
+      "prize": "三大赛道各设一等 2 名、二等 3 名、三等 5 名，颁发证书及奖金；配套优先对接创投机构与孵化载体、优先推荐申报广西科技创新「智果」行动计划定向支持，优秀成熟项目向全区司法行政系统及法律服务机构推介并纳入人才与企业资源库",
+      "tracks": ["国内应用赛道", "高校学生赛道", "东盟应用赛道", "六大业务方向：政府立法与依法行政/刑罚执行与监管安全/公共法律服务/法治宣传/面向东盟法律服务/行业数据集与垂直模型"],
+      "format": "8-31 启动 → 10-15 报名截止（修改材料至 10-20）→ 10-20 至 10-25 线上初赛 → 11 月中旬决赛（广西南宁，线上+线下结合）；自治区数据局发布涉外法律服务、跨境合规审查等真实业务场景，中国电信提供技术平台与算力支撑",
+      "url": "https://sft.gxzf.gov.cn/zwgk/tzgg/t28087980.shtml",
+      "last_verified": "2026-10-10"
+    },
+    {
+      "slug": "china-internet-innovation-2026-sz",
+      "name": "2026 中国互联网发展创新与投资大赛（深圳）",
+      "region": "cn",
+      "organizer": "中央网信办信息化发展局、广东省委网信办指导，中国互联网发展基金会、中国互联网投资基金、深圳市委网信办联合主办，深圳市互联网行业联合会承办",
+      "eligibility": "企业组面向已合法注册、项目进入市场且拥有自主知识产权的中小微企业；创客组面向个人、团队、海归人才、高校创客和科研团队",
+      "stage": "项目已进入市场（企业组）或处于创意/原型阶段（创客组）",
+      "deadline": "2026-10-15",
+      "event_date": "2026-11-20",
+      "prize": "投融资对接、园区落地、产业资源链接、媒体宣传等多维赋能；汇聚中国互联网投资基金、深创投等 20 余家投资机构；自 2020 年落地深圳以来五届累计吸引海内外 2000 余家企业与创新创业团队",
+      "tracks": ["人工智能", "智能制造", "数字安全", "智能交通", "物联网", "数字医疗", "低空经济", "数字创意", "RISC-V", "数字技术其他应用"],
+      "format": "全球项目征集 → 评审 → 决赛（深圳），打通「以赛促投、以赛促融」生态链路",
+      "url": "http://scitech.ce.cn/sy/zt/2026zt/cxytz_252082/index.shtml",
+      "last_verified": "2026-10-10"
+    },
+    {
+      "slug": "sushitech-challenge-2027",
+      "name": "SusHi Tech Challenge 2027 (Tokyo)",
+      "region": "intl",
+      "organizer": "SusHi Tech Tokyo (Tokyo Metropolitan Government)",
+      "eligibility": "Startups with new technology or business model with growth potential and an existing product/service, aligned with the sustainable-city concept; must be able to exhibit at the venue all three event days; all materials and pitches in English",
+      "stage": "Early stage with existing product or service",
+      "deadline": "2026-12-18",
+      "event_date": "2027-05-20",
+      "prize": "Grand Prize JPY 10 million; 20 semifinalists get booth fee waiver (JPY 300,000), VC/corporate pitch opportunities, investor networking, plus special awards from corporate partners and Tokyo Metropolitan Government promotion channels; 800+ startups applied last year",
+      "tracks": ["Physical AI", "Quantum", "Smart City", "Resilience", "Longevity & Drug Discovery", "Content"],
+      "format": "Applications Oct 2, 2026 - Dec 18, 2026 → screening Jan-Feb 2027 → 20 semifinalists → Semifinal May 20, Final May 21, 2027 at Tokyo Big Sight; judged on social impact, economic impact, global expansion potential, pitch skills",
+      "url": "http://www.sushitech-startup.metro.tokyo.lg.jp/en/recruiting-pitch",
+      "last_verified": "2026-10-10"
     }
   ]
 }
