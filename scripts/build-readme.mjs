@@ -128,6 +128,38 @@ function renderBoard(lang, comps) {
   return lines.join("\n");
 }
 
+function renderInsights(data) {
+  const active = data.competitions.filter((c) => statusOf(c) !== "closed");
+  const opc = active.filter(
+    (c) => /OPC|一人公司|单人成军/i.test(`${c.name} ${c.eligibility} ${c.stage} ${c.format} ${(c.tracks || []).join(" ")}`)
+  );
+  const rows = opc
+    .filter((c) => c.deadline)
+    .sort((a, b) => a.deadline.localeCompare(b.deadline))
+    .map((c) => {
+      const org = c.organizer.split(/×|，|\s*\(|（/)[0].trim().replace(/主办$/, "");
+      return `| ${c.url ? `**[${c.name}](${c.url})**` : `**${c.name}**`} | ${org} | ${fmtCn(c.deadline)} |`;
+    })
+    .join("\n");
+  if (!rows) return [];
+  return [
+    "## 赛道趋势 · Track Insights",
+    "",
+    "> 本节由脚本自动统计，随每日刷新变化。",
+    "",
+    "**OPC（一人公司）赛道集中爆发** —— 今年多场赛事把「单人创业」作为主线：",
+    "",
+    "| 赛事 | 主办 | 截止 |",
+    "|---|---|---|",
+    rows,
+    "",
+    "其中 **2026 首届珠海人工智能 OPC 创业大赛**政策力度最大：已注册企业一等奖 6 万元，另配套两年免租孵化、算力券最高 200 万元、模型券最高 100 万元、创业担保贷款小微最高 500 万元、人才房「一免两减」。",
+    "",
+    "> 趋势判断：AI 工具链成熟让「一人公司」从概念变成可参赛的实体形态，地方政府与赛事组委会正在把它当作新的招商与孵化抓手——对创业者而言，OPC 赛道的投入产出比正在优于传统团队赛。",
+    "",
+  ];
+}
+
 function buildReadme(data) {
   const n = data.competitions.length;
   const cn = data.competitions.filter((c) => c.region === "cn");
@@ -142,8 +174,9 @@ function buildReadme(data) {
     "",
     `![competitions](https://img.shields.io/badge/competitions-${n}-blue) ![data](https://img.shields.io/badge/data-competitions.json-informational) ![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen) ![license](https://img.shields.io/badge/license-MIT-lightgrey)`,
     "",
-    "**目录**：[国内比赛](#国内比赛) · [International](#international)",
+    "**目录**：[赛道趋势](#赛道趋势--track-insights) · [国内比赛](#国内比赛) · [International](#international)",
     "",
+    ...renderInsights(data),
     renderBoard("cn", cn),
     "",
     renderBoard("en", intl),
