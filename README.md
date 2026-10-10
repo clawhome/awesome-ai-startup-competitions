@@ -5,7 +5,7 @@
 > 收录全球 AI 创业比赛：国内赛事中文呈现，国际赛事英文呈现；报名状态由脚本每日自动刷新。
 > AI startup competitions worldwide — Chinese events presented in Chinese, international events in English; statuses refresh daily.
 
-![competitions](https://img.shields.io/badge/competitions-23-blue) ![data](https://img.shields.io/badge/data-competitions.json-informational) ![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen) ![license](https://img.shields.io/badge/license-MIT-lightgrey)
+![competitions](https://img.shields.io/badge/competitions-24-blue) ![data](https://img.shields.io/badge/data-competitions.json-informational) ![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen) ![license](https://img.shields.io/badge/license-MIT-lightgrey)
 
 **目录**：[国内比赛](#国内比赛) · [International](#international)
 
@@ -16,6 +16,7 @@
 | 比赛 | 截止 | 奖金与权益 | 资格与阶段 | 赛道 · 形式 |
 |---|---|---|---|---|
 | **[2026 iCAN 大学生创新创业大赛·快手 AI 未来创造者挑战赛](http://g-ican.com/)**<br>iCAN 组委会 × 快手（可灵 AI 技术支持） | **10-15** 截止 · **即将截止** | 官方证书 + 平台流量助推（月赛制，持续开放报名） | 全国全日制高校在校学生，单人或 2-5 人组队 · 创意 / 原型均可（作品经快手平台提交） | AI 场景创想、AI 产品实现、AI 无代码智能体 · 月赛制，线上报名 + 快手作品提交 |
+| **[中国独立游戏节 · 零代码 AI 游戏创作大赛](https://www.lzhu.cn/activity/2026/china-good-game/index.html)**<br>中国独立游戏节组委会 × 灵珠 AI（语生科学 AI 孵化平台），联合游密 Youme、TMA Top Mobile AI<br>决赛 12-01 | **10-30** 截止 | 冠亚季军奖杯 + 荣誉证书 + 实物大奖（iPhone 18 Pro / iPad Air / Apple Watch Series 12）；报名即领参赛免费算力，另有 800 元灵珠卡等核心奖励；复赛设四大专项奖，含统一专属宣发资源包 | 个人或团队均可，不限年龄与职业，无需编程基础；每人限提交一款作品 · 零代码门槛，用自然语言把创意做成可玩游戏（无需组建完整团队） | AI 游戏创作、零代码 AI 应用 · 10-10 起提交作品报名（收藏数计分）→ 10-20 开赛 → 10-30 截止初赛统计 → 11-05 百强（可选星推官）→ 11-10 复赛公测 → 11-20 二十强 → 12-01 决赛与四个专项奖公布 |
 | **[第十五届中国创新创业大赛·工业智能体专业赛](https://www.cxcyds.com)**<br>中国创新创业大赛组委会 × 北京市丰台区 | **10-31** 截止 | 一等奖 10 万 / 二等奖 5 万 / 三等奖 3 万元；配套最高 200 万元应用场景支持 + 150 份算力券 | 企业 / 团队 / 高校组（在校学生与青年科研人员）/ OPC 组 · 有产品或原型 | 工业智能体 · 线上初评 → 11 月下旬丰台现场路演+答辩 |
 | **[第三届「兴智杯」全国人工智能创新应用大赛](http://www.aiinnovation.com.cn)**<br>中国信息通信研究院 × 深圳市人工智能产业办公室 × 深圳市龙岗区人民政府 | **11-05** 截止 | 各赛题分设一、二、三等奖；总决赛 12 月在深圳举办，联动信通院与深圳产业资源落地对接 | 全国企业、高校、科研院所及创新团队 · 聚焦产业真实场景的可落地方案；另设 OPC 单人 AI 创业特色赛 | 技术创新（大模型智能体/小分子药物预测/Agent 机械臂）、行业赋能（AI+工业）、生态协同、云智专项赛 · 4 大方向 23 道赛题，线上提交 → 主题赛决赛 → 12 月深圳总决赛 |
 

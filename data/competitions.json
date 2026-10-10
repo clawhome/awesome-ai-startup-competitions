@@ -358,6 +358,21 @@
       "format": "线上提交初赛作品 → 百强复赛 → 10 月 31 日决赛现场路演（院士/大厂 CTO/头部 VC 评委）",
       "url": "https://aichallenge.msup.com.cn/",
       "last_verified": "2026-09-20"
+    },
+    {
+      "slug": "china-good-game-2026",
+      "name": "中国独立游戏节 · 零代码 AI 游戏创作大赛",
+      "region": "cn",
+      "organizer": "中国独立游戏节组委会 × 灵珠 AI（语生科学 AI 孵化平台），联合游密 Youme、TMA Top Mobile AI",
+      "eligibility": "个人或团队均可，不限年龄与职业，无需编程基础；每人限提交一款作品",
+      "stage": "零代码门槛，用自然语言把创意做成可玩游戏（无需组建完整团队）",
+      "deadline": "2026-10-30",
+      "event_date": "2026-12-01",
+      "prize": "冠亚季军奖杯 + 荣誉证书 + 实物大奖（iPhone 18 Pro / iPad Air / Apple Watch Series 12）；报名即领参赛免费算力，另有 800 元灵珠卡等核心奖励；复赛设四大专项奖，含统一专属宣发资源包",
+      "tracks": ["AI 游戏创作", "零代码 AI 应用"],
+      "format": "10-10 起提交作品报名（收藏数计分）→ 10-20 开赛 → 10-30 截止初赛统计 → 11-05 百强（可选星推官）→ 11-10 复赛公测 → 11-20 二十强 → 12-01 决赛与四个专项奖公布",
+      "url": "https://www.lzhu.cn/activity/2026/china-good-game/index.html",
+      "last_verified": "2026-10-10"
     }
   ]
 }
