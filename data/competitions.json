@@ -583,6 +583,51 @@
       "format": "Submissions open Dec 1, 2026 - Jan 15, 2027 → Stage 1 finalists announced May 2027 → accelerator Jun-Nov 2027 → final submission and pitch Nov 2027 → Stage 2 winners Jan 2028; informational webinar Dec 3, 2026",
       "url": "https://www.nih.gov/challenges/2027-nia-start-challenge-accelerator",
       "last_verified": "2026-10-29"
+    },
+    {
+      "slug": "ai6g-youth-2026",
+      "name": "首届「人工智能+6G」青年创新创业大赛（第八届全球校园 AI 算法精英大赛专项赛）",
+      "region": "cn",
+      "organizer": "全球校园人工智能算法精英大赛组委会、共青团南京市委、南京市科技局、全国高校信息通信区域技术转移转化中心（江苏）主办；共青团江苏省委、紫金山实验室指导；江苏省人工智能学会承办",
+      "eligibility": "全球高校、科研单位、企事业单位、初创团队及个人均可免费报名。学生组：在校学生，可单人参赛或与本校学生组队，每队≤3 人，不可跨校；企业组：国内外企事业单位、初创团队或个人，每队≤5 人，队长与团队平均年龄均≤45 周岁；每组最多 2 名指导教师；同一赛题每人只能加入一支团队",
+      "stage": "产品/原型/解决方案均可，设学生组与企业组分别评奖",
+      "deadline": "2026-11-13",
+      "event_date": "2026-12-10",
+      "prize": "每赛道每组决赛一等奖前 3 名：第 1 名 1 万元、第 2 名 5000 元、第 3 名 3000 元（共 6 个赛道组别，10.8 万元奖金池）；优秀选手可获紫金山实验室等工作或实习机会；在南京江宁产业化落地的获奖项目可优先推荐申报人才计划，最高 1000 万元项目资助",
+      "tracks": ["创新产品（6G 基站/芯片/算力/射频/光通信/卫星互联网、垂直大模型、智能体）", "创业项目（AI+6G 融合，商业模式与产业化）", "场景设计（内生智能、通感算智、工业智能、低空经济、具身智能）"],
+      "format": "9-28 至 11-13 20:00 报名及作品提交（官网 ai6g.aicomp.cn）→ 11-14 至 11-15 形式审查 → 11-16 至 11-20 线上复赛 → 11 月底至 12 月中上旬线下路演答辩决赛；材料中不得出现单位名称、LOGO 或指导教师信息",
+      "url": "https://ai6g.aicomp.cn/",
+      "last_verified": "2026-10-29"
+    },
+    {
+      "slug": "hicool-2027",
+      "name": "HICOOL 2027 全球创业大赛",
+      "region": "cn",
+      "organizer": "北京海外高层次人才协会（BOTA）主办，北京海高创新科技服务有限公司承办",
+      "eligibility": "个人或团队（团队≤3 人）参赛，每个参赛人只能报一个项目；未上市（新三板除外）；项目须拥有自主知识产权或关键技术、无纠纷，具创新性与商业化潜力；无重大失信与犯罪记录；分海外组（参赛人须有海外学位或 1 年以上海外学习/工作/创业经历，回国不超过 10 年）与本土组（无海外经历要求）；分创客期（尚未在京注册，或 2027-01-01 后注册）与成长期（2017-01-01 至 2026-12-31 间在京注册）；获奖领奖前须在京缴纳社保与个税；往届获奖项目及申报人不得再报",
+      "stage": "创客期（未注册或新注册）／成长期（已注册企业）",
+      "deadline": "2027-03-31",
+      "event_date": "2027-08-26",
+      "prize": "共 200 个获奖名额，总奖金 1.1 亿元：一等奖 12 名各 200 万元、二等奖 36 名各 100 万元、三等奖 68 名各 50 万元、优胜奖 84 名各 20 万元，奖金免征个人所得税；另享北京落户、子女入学、医疗就诊、出入境居留、办公空间、产业政策与投融资对接等配套",
+      "tracks": ["人工智能/机器人", "集成电路/量子信息", "5G/6G/物联网/智慧城市", "区块链/金融科技", "医药健康/医疗器械", "生物技术/健康服务", "高端仪器设备/通用型关键零部件", "关键新材料/新能源/节能环保", "智能装备/新能源智能汽车", "软件和信息服务/科技服务", "现代农业/食品科技", "文化创意"],
+      "format": "报名 2026-08 至 2027-03-31（官网 hicool.com）→ 初评 2027-04（材料打分，无路演）→ 全球赛区赛 2027-05 至 07（7 分钟路演 + 3 分钟问答）→ 全球复赛 2027-07 至 08（10 分钟 + 5 分钟）→ 全球决赛 2027-08 → 颁奖典礼 2027-08-26；全球设 7 大赛区（中国大陆、亚洲、欧洲、北美、南美、大洋洲、非洲）",
+      "url": "https://www.hicool.com/",
+      "last_verified": "2026-10-29"
+    },
+    {
+      "slug": "t-challenge-2027",
+      "name": "T Challenge 2027 (Deutsche Telekom & T-Mobile US)",
+      "region": "intl",
+      "organizer": "Deutsche Telekom × T-Mobile US",
+      "eligibility": "Researchers, developers and startups worldwide; ideas must be trustworthy, measurable and relevant to real network environments — from early research and new architectures to prototypes and solutions ready to scale. Up to 12 teams selected after qualification",
+      "stage": "Early research to scalable solution",
+      "deadline": "2027-01-09",
+      "event_date": "2027-05-11",
+      "prize": "Prize pool up to €450,000: 1st €150,000, 2nd €75,000, 3rd €50,000, special award €25,000, plus an experience package for selected nominees worth up to €150,000; travel and accommodation to the Bonn finals covered by Deutsche Telekom and T-Mobile US",
+      "tracks": ["AI-Native & Resilient Networks (incl. Autonomous Networks Level 5)", "Energy-Adaptable Networks", "Next-Generation Products, Experiences & New Value Creation (6G & intelligent connectivity)"],
+      "format": "Submission deadline Jan 9, 2027 → Top 12 announced Feb 17, 2027 → development phase Feb 22 - May 10, 2027 → pitch and award ceremony May 11-12, 2027 at Deutsche Telekom HQ, Bonn",
+      "url": "https://t-challenge.com/t-challenge-2027-applications-now-open",
+      "last_verified": "2026-10-29"
     }
   ]
 }
