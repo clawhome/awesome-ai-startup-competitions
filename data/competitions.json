@@ -131,10 +131,10 @@
       "deadline": "2026-11-05",
       "event_date": "2026-12-15",
       "prize": "官方荣誉证书 + 算力资源支持 + 投资机构对接 + 地方政府政策扶持与人才绿色通道；承办地龙岗已集聚 AI 企业超 800 家、机器人企业约 1.27 万家、自有算力 20000P、产业基金矩阵总规模 480 亿元、优惠产业空间超 50 万㎡",
-      "tracks": ["技术创新主题赛（Agent 关键能力、具身智能等）", "行业赋能主题赛（企业级流程智能体、行业真实场景落地）", "生态协同主题赛（国模国芯适配、开源生态建设）", "华为云智应用专项赛"],
-      "format": "8-31 深圳龙岗启动 → 11-05 报名截止 → 12 月深圳龙岗总决赛暨颁奖典礼；华为云作为云智专项赛支持单位提供全栈能力",
+      "tracks": ["技术创新主题赛（Agent 关键能力、具身智能、AI for Science、代码生成）", "行业赋能主题赛（工业、能源、医疗、通信、金融等真实场景）", "生态协同主题赛（国模国芯适配、算子自动生成、智算集群）", "OPC 单人 AI 创业特色应用方案赛", "华为云智应用专项赛"],
+      "format": "共 4 大方向、23 道赛题。8-31 深圳龙岗启动 → 11-05 23:59 报名与作品提交同步截止（只报名不交件无效）→ 11-12 月各主题赛/专项赛决赛 → 12 月深圳龙岗总决赛暨颁奖典礼；华为云作为云智专项赛支持单位提供全栈能力",
       "url": "http://www.aiinnovation.com.cn",
-      "last_verified": "2026-10-10"
+      "last_verified": "2026-10-29"
     },
     {
       "slug": "goai-2026",
@@ -367,7 +367,7 @@
       "tracks": ["AI 游戏创作", "零代码 AI 应用"],
       "format": "10-10 起提交作品报名（收藏数计分）→ 10-20 开赛 → 10-30 截止初赛统计 → 11-05 百强（可选星推官）→ 11-10 复赛公测 → 11-20 二十强 → 12-01 决赛与四个专项奖公布",
       "url": "https://www.lzhu.cn/activity/2026/china-good-game/index.html",
-      "last_verified": "2026-10-10"
+      "last_verified": "2026-10-29"
     },
     {
       "slug": "china-ai-contest-2026-xiamen",
@@ -410,9 +410,9 @@
       "event_date": "2026-12-20",
       "prize": "高校组、社会组各设一等 1 名、二等 2 名、三等 3 名、优秀奖 6 名；已注册企业一等 6 万 / 二等 4 万 / 三等 2 万，未注册项目分段资助（一等 3 万 + 落地注册后 3 万）；配套两年免租孵化、算力券最高 200 万、模型券最高 100 万、担保贷款个人 60 万 / 小微 500 万、人才房「一免两减」、投融资对接与港澳专项",
       "tracks": ["AI 硬件创新及设计（芯片/智能终端/具身智能/边缘计算）", "AI 软件与智能体创新（垂直行业 AI、轻量工具、Agent、多智能体协同）", "AIGC 创新及 AI 衍生应用（图文音视频/3D 生成、AI 安全、文旅数字孪生）"],
-      "format": "即日起至 11-10 报名（材料提交至 zhuhaiopccyds@163.com）→ 11 月下旬资格审核 → 12 月上旬初赛书面评审（各组25 个晋级）→ 12 月下旬复赛路演答辩（各组 12 个晋级）→ 决赛暨颁奖",
+      "format": "即日起至 11-10 报名（材料提交至 zhuhaiopccyds@163.com）→ 11 月下旬资格审核 → 12 月上旬初赛书面评审（各组 25 个晋级）→ 12 月下旬复赛路演答辩（各组 12 个晋级）→ 决赛暨颁奖",
       "url": "https://zhrsj.zhuhai.gov.cn/gkmlpt/content/3/3944/post_3944618.html",
-      "last_verified": "2026-10-10"
+      "last_verified": "2026-10-29"
     },
     {
       "slug": "gx-asean-ai-law-2026",
@@ -473,7 +473,7 @@
       "tracks": ["人工智能", "集成电路", "创新药", "合成生物", "机器人和智能制造", "商业航天", "医疗器械", "数字医疗", "新材料和高端仪器", "绿色先进能源", "文化科技", "计算视听"],
       "format": "项目征集（截至 2026-10-31）→ 各领域初赛、复赛（2026-11 至 2027-02，初赛函评、复赛路演，评选各领域前 10 名，前 3 名晋级半决赛）→ 半决赛（2027-03 上旬，约 60 个项目公开路演，前 10 名晋级）→ 总决赛（2027-03 下旬，公开路演现场打分）",
       "url": "https://www.zgcatech.cn/",
-      "last_verified": "2026-10-10"
+      "last_verified": "2026-10-29"
     },
     {
       "slug": "future-innovators-energy-2027",
@@ -503,7 +503,7 @@
       "tracks": ["Artificial Intelligence", "Cybersecurity"],
       "format": "Applications Nov 16, 2026 - Jan 31, 2027 → eligibility review Feb 1-14 → jury evaluation to end of February → Top 20 → online semifinals ~Mar 10 → Final 8 → live final Mar 25, 2027 at HIPTHER AI Summit, Prague. Round One: 8 startups, 5-min pitch + 5-min Q&A; Final Four: 5-min pitch + 10-min interrogation",
       "url": "https://hipther.com/events/prague/ai-summit/startup-challenge",
-      "last_verified": "2026-10-10"
+      "last_verified": "2026-10-29"
     },
     {
       "slug": "the-pitch-by-deel-2027",
@@ -538,6 +538,51 @@
       "format": "Join the 2027 waitlist now; applications open later (no formal interview round, video application showcasing the product in real time) → 50 shortlisted → 10 pitch live at SuperAI, 8-9 Sep 2027, Marina Bay Sands, Singapore",
       "url": "https://www.superai.com/genesis-startup-competition",
       "last_verified": "2026-10-10"
+    },
+    {
+      "slug": "youth-ai-innovation-2026",
+      "name": "第十一届全国青年人工智能创新创业大赛",
+      "region": "cn",
+      "organizer": "中国人工智能学会（CAAI）主办，哈尔滨工业大学（深圳）承办，哈工大（深圳）光明科技产业创新院协办",
+      "eligibility": "创新赛道分学生组（全日制在校生，含港澳台及教育部认证的海外高校）和青年组（科研院所/新型研发机构青年科研人员、在站博士后、企业核心研发成员，40 周岁以下即 1986-12-31 后出生）；创业赛道面向合法注册且从事 AI 相关技术研发/产品开发/服务的企业，或 AI 领域创业个人；每队 1-7 名成员（含 1 名队长，每人限报一队），指导教师 0-2 人；作品须拥有完全知识产权、无权属争议",
+      "stage": "创意、原型到已注册企业均可，按赛道区分",
+      "deadline": "2026-11-30",
+      "event_date": "2026-12-26",
+      "prize": "各赛道分设特等奖、一等奖、二等奖，颁发获奖证书并在官方平台公示；创新赛道奖项可作为硕博升学、海外留学、求职的科研能力证明；创业赛道获奖项目有机会获得企业投资、技术合作及媒体曝光；配套技术·能力·资本三位一体赋能（产学研资对接、阶梯化创业培训）",
+      "tracks": ["创新赛道（前沿技术突破与科研转化）", "创业赛道（成熟技术商业化落地）", "「揭榜挂帅」专项赛（企业真实技术难题）", "大模型", "智能体", "具身智能"],
+      "format": "报名截止 2026-11-30 24:00（腾讯问卷报名 + PPT 材料发至 IQCS_SouthCHN@163.com）→ 初赛 2026 年 12 月初专家评审 → 总决赛 2026 年 12 月末深圳现场答辩；不收报名费",
+      "url": "https://sailing.hitsz.edu.cn/info/1039/2982.htm",
+      "last_verified": "2026-10-29"
+    },
+    {
+      "slug": "jiangsu-ai-housing-2026",
+      "name": "2026 江苏创青春「人工智能+住房城乡建设」创新创业大赛",
+      "region": "cn",
+      "organizer": "江苏省住房和城乡建设厅、共青团江苏省委、江苏省数据局、江苏省科协联合主办",
+      "eligibility": "个人或团队均可报名，团队须明确 1 名负责人；项目须符合国家产业政策导向、具备自主知识产权、不侵犯第三方权利，使用开源代码或第三方技术须标注来源与协议版本；数据使用须合规",
+      "stage": "开放赛道不限阶段，「揭榜挂帅」应用赛道按后续公告",
+      "deadline": "2026-11-16",
+      "event_date": "2026-12-10",
+      "prize": "「科技创新」开放赛道各分赛道设一、二、三等奖和优秀奖；「揭榜挂帅」应用赛道设最佳场景奖、应用创新奖、技术价值奖和优秀奖；不收报名费，不委托任何机构开展有偿培训",
+      "tracks": ["人工智能+住房城乡建设", "科技创新开放赛道", "揭榜挂帅应用赛道"],
+      "format": "「科技创新」开放赛道报名 10-28 至 11-16，通过赛事官方平台提交项目资料 → 11 月下旬预赛 → 12 月上旬决赛；「揭榜挂帅」应用赛道安排由组委会另行公告",
+      "url": "https://jsszfhcxjst.jiangsu.gov.cn/art/2026/10/27/art_8639_11849438.html",
+      "last_verified": "2026-10-29"
+    },
+    {
+      "slug": "nia-startup-challenge-2027",
+      "name": "2027 NIA Start-Up Challenge and Accelerator",
+      "region": "intl",
+      "organizer": "National Institute on Aging (NIA), U.S. National Institutes of Health",
+      "eligibility": "Early-stage entrepreneurs and researchers new to entrepreneurship proposing science-driven technologies for healthy aging; particular interest in solutions leveraging AI (data-driven / machine learning for early detection, risk prediction, personalized interventions, drug discovery). Team Lead must be a U.S. citizen or permanent resident to receive a cash prize",
+      "stage": "Pre-seed / idea to early prototype",
+      "deadline": "2027-01-15",
+      "event_date": "2027-11-30",
+      "prize": "Up to $994,000 total cash prizes: $24,000 for up to 21 finalist teams plus $70,000 for 7 winning teams; entrepreneurial training, 1:1 mentorship from founders and investors, pitch coaching, and introductions to NIA/NIH SBIR-STTR funding",
+      "tracks": ["AI for healthy aging", "Healthy aging & care delivery", "Alzheimer's & AD-related dementias", "Aging in place", "Caregiving"],
+      "format": "Submissions open Dec 1, 2026 - Jan 15, 2027 → Stage 1 finalists announced May 2027 → accelerator Jun-Nov 2027 → final submission and pitch Nov 2027 → Stage 2 winners Jan 2028; informational webinar Dec 3, 2026",
+      "url": "https://www.nih.gov/challenges/2027-nia-start-challenge-accelerator",
+      "last_verified": "2026-10-29"
     }
   ]
 }
