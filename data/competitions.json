@@ -252,15 +252,15 @@
       "region": "intl",
       "organizer": "ITU (United Nations)",
       "rolling": true,
-      "eligibility": "AI startups addressing global challenges (SDGs), all regions",
-      "stage": "Any stage",
+      "eligibility": "Early-stage AI startups worldwide with a working prototype, beta or MVP, registered and operational for at least 6 months, total funding raised below $1M; must have a company website and active social presence. No geography restriction. Ventures leveraging AI/ML for the SDGs preferred",
+      "stage": "Early stage, prototype to MVP, non-dilutive",
       "deadline": null,
-      "event_date": null,
-      "prize": "$20,000 cash at Grand Finale + UN Summit exposure + accelerator programme + investor connections",
-      "tracks": ["AI for Good", "Climate", "Health", "Robotics"],
-      "format": "Monthly online pitching sessions (Sep 2026 - May 2027) → Grand Finale at AI for Good Global Summit (Jun 2027)",
+      "event_date": "2026-12-08",
+      "prize": "$20,000 equity-free grand prize; the session winner also gets a Grand Finale ticket at the AI for Good Global Summit 2027, speaker pass, startup pod, Frontier Stage pitch slot, access to the Innovation Factory Startup Accelerator Programme 2027, alumni network and judge mentoring",
+      "tracks": ["AI for Good", "Climate", "Health", "Robotics", "SDG-focused AI"],
+      "format": "Rolling monthly online pitching sessions. Current 2026 cycle: applications open until Nov 23, 2026 → live pitching session Dec 8, 2026 (16:00-17:00 CET) → winner advances to the Grand Finale at AI for Good Global Summit 2027 in Geneva. The application form requires company details, funding stage, a pitch deck (max 15MB) and a solution description",
       "url": "https://aiforgood.itu.int/about-us/innovation-factory/",
-      "last_verified": "2026-09-20"
+      "last_verified": "2026-11-05"
     },
     {
       "slug": "startup-world-cup",
@@ -283,15 +283,15 @@
       "name": "SXSW Pitch 2027",
       "region": "intl",
       "organizer": "SXSW",
-      "eligibility": "Early-stage startups",
+      "eligibility": "Early-stage startups worldwide applying through an open call; 2026 edition drew 600+ applications for 64 finalist slots judged by 40 investor judges. An application fee applies and is non-refundable even if not selected",
       "stage": "Prototype / early traction",
       "deadline": "2026-11-13",
       "event_date": "2027-03-16",
-      "prize": "Prize package + investor & media exposure",
-      "tracks": ["AI & Machine Learning", "Enterprise"],
-      "format": "Regular entry Sep 14 - Nov 13, 2026 → live pitch in Austin (Mar 16-17, 2027)",
+      "prize": "Finalist showcase at SXSW Pitch 2027 before investor judges, plus award package, media and investor exposure; since 2009, 723 past participants have raised or generated $22.5B+ with 74% securing funding",
+      "tracks": ["Emerging & Frontier Technologies", "Entertainment, Media, Sports & Digital Platforms", "Life Sciences, Healthcare & AssistiveTech", "Mobility, Manufacturing & Industrial Systems", "SaaS, Enterprise & Developer Platforms", "Smart Data, Security & FinTech", "Student Startups (presented by University of St. Thomas, Minnesota)", "Sustainability, Energy & AgTech"],
+      "format": "Applications opened Jun 23, 2026; regular entry Sep 14 - Nov 13, 2026 ($225 fee); final deadline Nov 13, 2026 → live pitch Mar 16-17, 2027 in Austin, Texas; 8 sector tracks, 64 startups showcased",
       "url": "https://www.sxsw.com/awards/pitch/",
-      "last_verified": "2026-09-20"
+      "last_verified": "2026-11-05"
     },
     {
       "slug": "nvidia-inception",
@@ -563,11 +563,11 @@
       "stage": "开放赛道不限阶段，「揭榜挂帅」应用赛道按后续公告",
       "deadline": "2026-11-16",
       "event_date": "2026-12-10",
-      "prize": "「科技创新」开放赛道各分赛道设一、二、三等奖和优秀奖；「揭榜挂帅」应用赛道设最佳场景奖、应用创新奖、技术价值奖和优秀奖；不收报名费，不委托任何机构开展有偿培训",
-      "tracks": ["人工智能+住房城乡建设", "科技创新开放赛道", "揭榜挂帅应用赛道"],
-      "format": "「科技创新」开放赛道报名 10-28 至 11-16，通过赛事官方平台提交项目资料 → 11 月下旬预赛 → 12 月上旬决赛；「揭榜挂帅」应用赛道安排由组委会另行公告",
+      "prize": "「科技创新」开放赛道各分赛道设一、二、三等奖和优秀奖；「揭榜挂帅」应用赛道设最佳场景奖、应用创新奖、技术价值奖和优秀奖；获奖项目纳入江苏省级人工智能应用场景培育计划、推荐申报省青年科技人才托举工程，并对接概念验证中心与中试基地；不收报名费，不委托任何机构开展有偿培训",
+      "tracks": ["民生服务", "产业发展", "安全韧性", "揭榜挂帅应用赛道（城市更新、智慧建造、低碳建筑、数智运维）", "大模型", "智能体", "机器视觉", "具身智能", "空间智能"],
+      "format": "主题「智汇住建·融筑未来」。10-28 开启线上报名（10-30 省住建厅媒体通气会时注册团队已近百组）→「科技创新」开放赛道报名 11-16 截止 → 11 月下旬预赛（材料评选）→ 12 月上旬决赛（现场路演答辩）；「揭榜挂帅」应用赛道安排由组委会另行公告",
       "url": "https://jsszfhcxjst.jiangsu.gov.cn/art/2026/10/27/art_8639_11849438.html",
-      "last_verified": "2026-10-29"
+      "last_verified": "2026-11-05"
     },
     {
       "slug": "nia-startup-challenge-2027",
@@ -628,6 +628,36 @@
       "format": "Submission deadline Jan 9, 2027 → Top 12 announced Feb 17, 2027 → development phase Feb 22 - May 10, 2027 → pitch and award ceremony May 11-12, 2027 at Deutsche Telekom HQ, Bonn",
       "url": "https://t-challenge.com/t-challenge-2027-applications-now-open",
       "last_verified": "2026-10-29"
+    },
+    {
+      "slug": "ccf-tec-agi-2026",
+      "name": "2026 CCF 科技创业大赛 & 全国通用人工智能创新应用大赛（TEC 2026 / TEC-AGI 2026）",
+      "region": "cn",
+      "organizer": "中国计算机学会（CCF）主办；TEC 2026 落地江苏苏州，TEC-AGI 2026 落地安徽，全国总决赛在合肥",
+      "eligibility": "拥有科技成果的初创企业或计划创业的团队，核心成员不少于 2 人，无个人不良信用记录；项目须有自主知识产权、无产权纠纷、有市场前景；往届 TEC 获奖但未落地注册的项目可再参赛（连续参赛不超过两届）；分初创组（运营三年内且未融资，或三年以上但未在举办地设公司）与成长组（连续两年销售额累计超 1000 万元，或获市场化基金投资超 100 万元，可直通专项赛决赛）",
+      "stage": "初创组 / 成长组",
+      "deadline": "2026-11-10",
+      "event_date": "2026-12-18",
+      "prize": "9 大赛道合计最高 5000 万元单笔产业场景订单；安徽省总决赛前 10 名在皖落户可直通申报省高层次科技创新创业团队，最高 2000 万元「资金支持+股权投资」；各地市配套最高 1000 万基金支持、E/F/G 类人才认定、最高 100 万人才补贴；不少于 10 家合作投资机构对接、CCF 铜质合作伙伴会员 1 年、宣传推广与孵化服务",
+      "tracks": ["AI+智能制造（TEC 2026·张家港）", "AI+元宇宙（合肥新站）", "AI+科学智能（合肥高新区）", "AI+生物医药（亳州）", "AI+脑机接口（蚌埠）", "AI+城市更新（滁州）", "AI+工业制造（马鞍山）", "AI+生物制造（芜湖）", "AI+文化旅游（安庆）"],
+      "format": "报名 2026-10-13 至 11-10 24:00（官网下载《项目登记表》《商业计划书》在线提交）→ 11-11 至 12-03 形式审查与分批评审 → 11-28 至 12-13 各专项赛路演（初评前 20 名，7 分钟路演 + 8 分钟问答）→ 12-18 至 19 总决赛路演与颁奖；每个专项赛前 3 名晋级全国总决赛",
+      "url": "https://ccf.org.cn/tecagi2026",
+      "last_verified": "2026-11-05"
+    },
+    {
+      "slug": "cuhksz-fairylake-2026",
+      "name": "第四届香港中文大学（深圳）「神仙湖」国际创新创业大赛（「今天国际杯」）",
+      "region": "cn",
+      "organizer": "香港中文大学（深圳）、深圳市龙岗区人民政府、香港中文大学深圳研究院主办；港中大（深圳）资产经营有限公司、立方匯承办；深圳市今天国际物流技术股份有限公司独家冠名",
+      "eligibility": "国内外优秀初创团队及初创企业；参赛主体须为报名截止前尚未注册企业的团队，或已注册但融资未超过两轮（种子轮、天使轮）的初创企业；项目处于构思或早期发展阶段，须有科技创新成果、可行商业模式与合法知识产权；核心成员 2-6 人、均年满 16 周岁，须设 1 名队长，可另设 1-2 名指导专家，决赛现场答辩成员不超过 3 人；不接受个人名义报名；往届获奖项目不可重复参赛",
+      "stage": "种子轮 / 天使轮之前的早期项目",
+      "deadline": "2026-12-04",
+      "event_date": "2027-01-10",
+      "prize": "评选 20 个优质项目：重点培育项目 5 个，各 20 万元（大赛奖金 10 万 + 专项落地基金 10 万）；潜力培育项目 10 个，各 10 万元（奖金 5 万 + 落地基金 5 万）；优秀奖 5 个；入选「神仙湖优质创业项目育苗计划」，可获港中深松禾种子基金最高 500 万元投资、国家级科技企业孵化器最长 12 个月免费办公空间；作为深圳鲲鹏青年创新创业项目合作赛事，获奖项目可获直接入库资格、最高 100 万元研发资助",
+      "tracks": ["大数据和人工智能（通用大模型基础架构、具身智能与智能机器人、边缘智算、量子科技、脑机接口）", "高端智能制造和半导体", "新材料和新能源", "生物医药和医疗器械"],
+      "format": "9-23 开放报名 → 11-03 线上答疑会 → 12-04 24:00 报名与作品提交截止 → 12-08 专家材料评审 → 12-14 公布复赛名单 → 12-20 线上路演复赛 → 12-28 公布决赛名单 → 2027-01-10 深圳决赛路演及颁奖；不接受个人报名",
+      "url": "https://fairylakecompetition.cuhk.edu.cn",
+      "last_verified": "2026-11-05"
     }
   ]
 }
