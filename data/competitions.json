@@ -255,11 +255,11 @@
       "stage": "Early stage, prototype to MVP, non-dilutive",
       "deadline": null,
       "event_date": "2026-12-08",
-      "prize": "$20,000 equity-free grand prize; the session winner also gets a Grand Finale ticket at the AI for Good Global Summit 2027, speaker pass, startup pod, Frontier Stage pitch slot, access to the Innovation Factory Startup Accelerator Programme 2027, alumni network and judge mentoring",
+      "prize": "The Dec 8 session winner receives a place in the Innovation Factory Grand Finale at the AI for Good Global Summit 2027 (Geneva), a speaker pass, a startup pod and a Frontier Stage pitch slot, plus access to the Startup Accelerator Programme 2027, the alumni network, judge mentoring and an Innovation Factory Exhibition listing. The $20,000 equity-free cash prize is awarded to the overall Grand Finale winner in Jun 2027, not to the session winner",
       "tracks": ["AI for Good", "Climate", "Health", "Robotics", "SDG-focused AI"],
-      "format": "Rolling monthly online pitching sessions. Current 2026 cycle: applications open until Nov 23, 2026 → live pitching session Dec 8, 2026 (16:00-17:00 CET) → winner advances to the Grand Finale at AI for Good Global Summit 2027 in Geneva. The application form requires company details, funding stage, a pitch deck (max 15MB) and a solution description",
+      "format": "Rolling monthly online pitching sessions. Current 2026 cycle: applications open until Nov 23, 2026 → live pitching session Dec 8, 2026 (16:00-17:00 CET) → session winner advances to the Grand Finale at the AI for Good Global Summit 2027 in Geneva (pre-final Jun 22, Grand Finale Jun 24, 2027). The application form requires company details, funding stage, a pitch deck (max 15MB) and a solution description",
       "url": "https://aiforgood.itu.int/about-us/innovation-factory/",
-      "last_verified": "2026-11-05"
+      "last_verified": "2026-11-12"
     },
     {
       "slug": "startup-world-cup",
@@ -558,15 +558,15 @@
       "name": "2026 江苏创青春「人工智能+住房城乡建设」创新创业大赛",
       "region": "cn",
       "organizer": "江苏省住房和城乡建设厅、共青团江苏省委、江苏省数据局、江苏省科协联合主办",
-      "eligibility": "个人或团队均可报名，团队须明确 1 名负责人；项目须符合国家产业政策导向、具备自主知识产权、不侵犯第三方权利，使用开源代码或第三方技术须标注来源与协议版本；数据使用须合规",
+      "eligibility": "面向全国征集：高校在校师生、科研院所人员、AI 领域与住建行业企事业单位人员、青年创业者等；参赛成员须为中国公民，每个团队核心成员中至少 1 人年龄不超过 45 周岁；可跨地区、跨单位、跨专业组队，个人或团队均可（团队须明确 1 名负责人）；项目须符合国家产业政策、具备自主知识产权、开源代码与第三方技术须标注来源及协议版本、数据使用合规",
       "stage": "开放赛道不限阶段，「揭榜挂帅」应用赛道按后续公告",
       "deadline": "2026-11-16",
       "event_date": "2026-12-10",
       "prize": "「科技创新」开放赛道各分赛道设一、二、三等奖和优秀奖；「揭榜挂帅」应用赛道设最佳场景奖、应用创新奖、技术价值奖和优秀奖；获奖项目纳入江苏省级人工智能应用场景培育计划、推荐申报省青年科技人才托举工程，并对接概念验证中心与中试基地；不收报名费，不委托任何机构开展有偿培训",
       "tracks": ["民生服务", "产业发展", "安全韧性", "揭榜挂帅应用赛道（城市更新、智慧建造、低碳建筑、数智运维）", "大模型", "智能体", "机器视觉", "具身智能", "空间智能"],
-      "format": "主题「智汇住建·融筑未来」。10-28 开启线上报名（10-30 省住建厅媒体通气会时注册团队已近百组）→「科技创新」开放赛道报名 11-16 截止 → 11 月下旬预赛（材料评选）→ 12 月上旬决赛（现场路演答辩）；「揭榜挂帅」应用赛道安排由组委会另行公告",
-      "url": "https://jsszfhcxjst.jiangsu.gov.cn/art/2026/10/27/art_8639_11849438.html",
-      "last_verified": "2026-11-05"
+      "format": "主题「智汇住建·融筑未来」，赛事官方平台 www.gbservice.cn。10-28 开启线上报名（10-30 省住建厅媒体通气会时注册团队已近百组）→「科技创新」开放赛道报名 11-16 截止 → 11 月下旬预赛（材料评选）→ 12 月上旬决赛（现场路演答辩）；「揭榜挂帅」应用赛道安排由组委会另行公告",
+      "url": "https://www.gbservice.cn",
+      "last_verified": "2026-11-12"
     },
     {
       "slug": "nia-startup-challenge-2027",
@@ -657,6 +657,51 @@
       "format": "9-23 开放报名 → 11-03 线上答疑会 → 12-04 24:00 报名与作品提交截止 → 12-08 专家材料评审 → 12-14 公布复赛名单 → 12-20 线上路演复赛 → 12-28 公布决赛名单 → 2027-01-10 深圳决赛路演及颁奖；不接受个人报名",
       "url": "https://fairylakecompetition.cuhk.edu.cn",
       "last_verified": "2026-11-05"
+    },
+    {
+      "slug": "imagine-cup-2027",
+      "name": "Microsoft Imagine Cup 2027",
+      "region": "intl",
+      "organizer": "Microsoft for Startups",
+      "eligibility": "Early-stage startups (no longer student-only as of 2027): a registered legal entity founded on or after Nov 2, 2024, not having raised Series C or later, with a software-based product or service of commercial potential built with Microsoft AI / Azure. Individual entrants must be 18+. Global except jurisdictions under comprehensive US OFAC sanctions. A separate Student Startup category preserves the student legacy",
+      "stage": "Registered early-stage startup, pre-Series C",
+      "deadline": "2027-02-28",
+      "event_date": "2027-06-01",
+      "prize": "Champion $250,000 cash + $1,000,000 startup credits; 2nd $50,000 + $350,000 credits; 3rd $25,000 + $350,000 credits; Top Student Startup $25,000 + $250,000 credits. Top 3 also get Microsoft executive mentorship, social/blog features and a place in the Imagine Cup 2027 Top 20 Startups",
+      "tracks": ["Developer Tools", "Retail", "Healthcare & Life Sciences", "Cybersecurity", "Financial Services", "Deep Tech + Physical AI", "Student Startup"],
+      "format": "Applications opened Nov 2, 2026 and close Feb 28, 2027 at 11:59 p.m. CST via Award Force, with rolling review (earlier applications scored first) → expert review Mar 1-12, 2027 → recorded category interviews Mar 16-31 → final judging April → World Championship May-June 2027. Requires a pitch deck, a 2-3 min product demo video, an Azure architecture diagram and written responses; free to enter",
+      "url": "https://imaginecup.microsoft.com/en-us",
+      "last_verified": "2026-11-12"
+    },
+    {
+      "slug": "sme-ai-product-2026",
+      "name": "中小企业 AI 应用产品大赛",
+      "region": "cn",
+      "organizer": "中国中小商业企业协会 × 强企（北京）科技服务有限责任公司主办；深度发现数字传媒科技（北京）有限公司、企业增长实验室、外挂市场部承办",
+      "eligibility": "面向为中小企业提供 AI 产品与服务的机构：AI 软件与 SaaS 服务商、行业解决方案商、智能硬件企业、产业互联网平台、初创团队，以及企业自研并对外输出的 AI 工具；不设企业规模与成立年限门槛。产品须已正式上线、有 3 家以上企业用户（至少 1 家可出具使用证明）、能提供至少 1 项可核实的量化效果、可现场独立演示、可规模化复制、合规且知识产权清晰",
+      "stage": "已上线产品，原型或未上线项目不可参赛",
+      "deadline": "2026-12-10",
+      "event_date": "2027-03-01",
+      "prize": "一等奖 1 名、二等奖 2 名、三等奖 3 名；获奖产品纳入《2026 中小企业 AI 应用产品推荐目录》并向协会会员、地方协会、产业园区定向推送，获协会数字化服务平台首页推荐、人工智能应用工作委员会发起单位资格、下一年度 AI 应用案例优先推荐、团体标准研制优先邀请；全程不收报名费/评审费/参赛费",
+      "tracks": ["获客与营销", "生产与供应链", "办公与协同", "财税与合规", "出海与跨境", "人力与组织", "智能硬件与具身智能"],
+      "format": "主题「好用，才是好 AI」。报名及材料提交截至 2026-12-10 24:00（协会官网 www.zxsx.org / 公众号 zxsxorg 的「AI 应用产品大赛」专区）→ 12-11 至 15 资格预审、12-16 公布初赛名单 → 12-18 至 19 北京第 21 届中小企业家年会现场初赛（路演 + 专家投票，晋级 50-60 个）→ 2027 年 1 月下旬线上复赛（8 分钟陈述 + 5 分钟答辩）→ 2027 年 3 月线下决赛（真实产品操作演示 + 企业评审团投票）",
+      "url": "http://www.zxsx.org",
+      "last_verified": "2026-11-12"
+    },
+    {
+      "slug": "liaowang-opc-2026",
+      "name": "2026「辽望杯」OPC 创新创业大赛",
+      "region": "cn",
+      "organizer": "抚顺市望花区人民政府主办；辽宁石油化工大学人工智能与软件学院承办；望花区商务局、科技局、数据局、区委人才办协办",
+      "eligibility": "不限地域、面向全国，以项目为参赛单元。参赛主体可为 OPC 等数字经济关联企业或企业内部团队、OPC 个体创客/独立开发者/自由数字创作者、高校师生/科研机构/社会青年/跨地域线上协作团队；团队原则上不超过 10 人并须指定 1 名负责人。项目须突出人机协同、轻资产组织、AI 深度嵌入、快速迭代等 OPC 特征，原型产品、在研项目、已运营项目均可申报；曾获省级及以上同类赛事最高奖的项目原则上不得参赛",
+      "stage": "创意、原型到已运营项目均可",
+      "deadline": "2026-11-30",
+      "event_date": "2026-12-20",
+      "prize": "一等奖 1 名 5 万元、二等奖 3 名各 3 万元、三等奖 8 名各 1 万元、鼓励奖 10 名，奖金总额 22 万元；所有报名主体（不限于获奖者）均可享优先入驻云想空间 OPC 生态社区、普惠算力补贴、创业担保贷款贴息，并优先推荐申报「抚顺英才计划」「兴辽英才计划」",
+      "tracks": ["产业数字化与智能化转型", "AI 智能体与智能系统开发", "垂直领域大模型研发", "垂直行业解决方案", "AIGC 数字创意", "数字服务与 SaaS 工具"],
+      "format": "总周期 2026 年 11-12 月，两级赛制。**官方公告只给出区间、未给精确报名截止日**：宣传启动及报名阶段为 11 月上旬至中旬（表内 11-30 取「11 月底完成初赛海选」作为保守参考，实际以区政府后续报名通道公告为准）→ 11 月中旬至月底材料评审海选 → 12 月初至月底线下集中决赛路演（10 分钟路演 + 5 分钟答辩）。线上线下均可报名，不收任何费用",
+      "url": "https://www.fswh.gov.cn/ins.asp?s=84&i=20513",
+      "last_verified": "2026-11-12"
     }
   ]
 }

@@ -137,11 +137,13 @@ function renderInsights(data) {
   if (!all.length) return [];
 
   const org = (c) =>
-    c.organizer.split(/×|，|\s*\(|（/)[0].trim().replace(/主办$/, "");
+    c.organizer.split(/×|，|；|\s*\(|（/)[0].trim().replace(/主办$/, "");
   const title = (c) => (c.url ? `**[${c.name}](${c.url})**` : `**${c.name}**`);
   const deadline = (c) => (c.deadline ? fmtCn(c.deadline) : "—");
-  const policy =
+  // 仅在珠海赛事确实出现在表中时才引用其政策，避免文案指向表格里不存在的条目。
+  const zhuhaiPolicy =
     "其中 **2026 首届珠海人工智能 OPC 创业大赛**政策力度最大：已注册企业一等奖 6 万元，另配套两年免租孵化、算力券最高 200 万元、模型券最高 100 万元、创业担保贷款小微最高 500 万元、人才房「一免两减」。";
+  const hasZhuhai = (list) => list.some((c) => c.slug === "zhuhai-ai-opc-2026");
   const head = [
     "## 赛道趋势 · Track Insights",
     "",
@@ -161,14 +163,13 @@ function renderInsights(data) {
       .join("\n");
     return [
       ...head,
-      "**OPC（一人公司）赛道集中爆发** —— 今年多场赛事把「单人创业」作为主线：",
+      `**OPC（一人公司）赛道仍在延续** —— 今年已有多场赛事把「单人创业」作为主线，当前仍有 ${active.length} 场开放报名：`,
       "",
       "| 赛事 | 主办 | 截止 |",
       "|---|---|---|",
       rows,
       "",
-      policy,
-      "",
+      ...(hasZhuhai(active) ? [zhuhaiPolicy, ""] : []),
       "> 趋势判断：AI 工具链成熟让「一人公司」从概念变成可参赛的实体形态，地方政府与赛事组委会正在把它当作新的招商与孵化抓手——对创业者而言，OPC 赛道的投入产出比正在优于传统团队赛。",
       "",
     ];
@@ -190,7 +191,7 @@ function renderInsights(data) {
     "|---|---|---|---|",
     rows,
     "",
-    policy,
+    zhuhaiPolicy,
     "",
     "> 趋势判断：AI 工具链成熟让「一人公司」从概念变成可参赛的实体形态。2026 年多地把它写进赛制并配套算力券、模型券与担保贷款，是地方政府招商与孵化抓手的一次集中试验；后续观察点在于是否会有第二届及跨年长窗口赛事。",
     "",
